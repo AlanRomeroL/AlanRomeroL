@@ -76,7 +76,19 @@ Laboratorio con dos servidores Ubuntu que implementa **streaming replication**, 
 
 ### 💻 Desarrollo de software
 
-**Bernisgym** — Proyecto personal en **TypeScript**. *Repositorio privado; sin enlace público.*
+#### 🏋️ BernisGym — Sitio web para gimnasio (repositorio privado)
+
+Proyecto web para **BernisGym**, un gimnasio de Nobol, Ecuador. Su objetivo es ofrecer una experiencia **multipágina, adaptable a dispositivos móviles** y enfocada en facilitar consultas por **WhatsApp**, además de mostrar servicios, instalaciones, horarios y ubicación.
+
+El plan de producción plantea **migrar una versión existente en HTML, CSS y JavaScript** a un sitio estático con **Astro y TypeScript estricto**, sin backend, CMS ni base de datos en su primera versión.
+
+- **Páginas previstas:** inicio, entrenamiento, instalaciones, contacto y privacidad.
+- **Arquitectura propuesta:** componentes reutilizables, datos del negocio centralizados y generación de páginas estáticas.
+- **Stack previsto:** Astro · TypeScript · CSS · Git/GitHub · Cloudflare Workers Static Assets.
+- **Objetivos de calidad:** accesibilidad WCAG 2.2 AA, rendimiento web, SEO local, privacidad y diseño *mobile-first*.
+- **Pruebas planificadas:** Playwright, axe y Lighthouse CI.
+
+**Estado:** plan de producción definido; migración, pruebas y despliegue descritos como fases previstas, no como resultados ya completados. *Repositorio privado, sin enlace público.*
 
 ## 🎓 Formación
 
